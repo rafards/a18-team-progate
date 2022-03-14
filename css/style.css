@@ -1,3 +1,11 @@
+/* GitHub Pages Error Fix */
+@import
+    	"base",
+   	"layout",
+   	"syntax-highlighting",
+    	"bootstrap";
+/* JANGAN DIEDIT */
+
 /* Google Font Import */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
@@ -9,14 +17,6 @@
 	scroll-behavior: smooth;
 	font-family: "Poppins", sans-serif;
 }
-
-/* GitHub Pages Error Fix */
-@import
-    	"base",
-   	"layout",
-   	"syntax-highlighting",
-    	"bootstrap";
-/* JANGAN DIEDIT */
 
 /* RAFLY CODING FOOTER START */
 /* Footer Styling */
