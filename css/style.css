@@ -163,24 +163,20 @@ a {
     	border-bottom: 1px solid #eee;
     	padding-bottom: 80px;
     	text-align: center;
-    	font-family: 'Times New Roman', Times, serif;
     	background-color: #f7f7f7;
 }
 .profile {
-    	margin-top: 30px;
+    	margin: 2% 5px;
     	border-radius: 10px;
     	width: 19%;
     	float: left;
-    	margin: 4px;
     	background-color: #f7f7f7;
-    	transition: all 1s;
-    	margin-bottom: 20px;  
+    	transition: all 1s;  
 }
 .profile:hover {
     	border: 1px solid #474747;
     	box-shadow: 3px 7px #474747;
     	background-color: #f7f7f7;
-    	color: #000000;
 }
 .heading-1 h1{
     	font-weight: normal;
@@ -194,17 +190,15 @@ a {
     	text-align: center;
      	width: 100%;
 	font-size: 16px;
+	padding: 5px 5px;
 }
 
 @media (max-width: 1000px){
 /* Coding Css Responsive Sayyid */
-.message-wrapper {
-	height: 100%;
-	width: 100%;
-	}
+
 .profile {
-	width: 45%;
-	margin-bottom: 20px;  
+	width: 40%;
+	margin: 10px 5%;  
 }
 .profile p{
 	font-size: 12px;
@@ -213,13 +207,10 @@ a {
 }
 @media (max-width: 670px){
 	/* Coding Css Responsive Sayyid */
-.message-wrapper {
-    	width: 100%;
-	height: 100%;
-    }
+
 .profile {
 	width: 70%;
-	margin-left: 15%;
+	margin: 10px 15%;
 	font-size: 10px;
   }
 /* Akhir Css Responsive Sayyid */
