@@ -14,20 +14,19 @@
 
 
 /* Awal Css Top-Wrapper Nova */
-
-
 a {
     text-decoration: none;
 }
 
 
 .container {
+    width: 100%;
     margin: 0 auto;
 }
 
 .top-wrapper {
     background-color: white;
-    padding: 50px 150px;
+    padding: 50px 50px;
     Display: flex;
     flex-wrap: wrap;
     color: navy;
@@ -37,6 +36,7 @@ a {
 
 .top-left {
     width: 50%;
+    height: auto;
     margin: auto;
 }
 
@@ -59,13 +59,12 @@ a {
 
 
 .button-daftar {
-    padding: 12px 24px;
     color: navy;
     display: inline-block;
     opacity: 0.8;
     border-radius: 10px;
     text-align: center;
-    padding: 15px 40px;
+    padding: 10px 20px;
     cursor: pointer;
     margin-right: 20px;
     border: 1px solid navy;
@@ -91,11 +90,54 @@ a {
     box-shadow: none;
 }
 
-.fa {
-    margin-right: 5px;
-    color: navy;
+/* Akhir Css Top-Wrapper Nova */
+
+/* Tampilan Tablet*/
+@media all and (max-width: 1000px) {
+    .top-left h1 {
+        font-size: 40px;
+    }
+    
+    .top-left p {
+        font-size: 16px;
+    }
+
+    .top-right img {
+        width: 320px;
+    }
+    
+    .button-daftar {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
 }
 
+
+
+/* Tampilan Smartphone */
+@media all and (max-width: 670px) {
+    .top-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-right{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .top-left h1 {
+        font-size: 36px;
+    }
+    
+    .top-left p {
+        font-size: 11px;
+    }
+
+    .top-right img {
+        width: 200px;
+    }
+}
 /* Akhir Css Top-Wrapper Nova */
 
 
