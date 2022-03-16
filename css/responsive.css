@@ -1,0 +1,255 @@
+/* NOVA START RESPONSIVE */
+/* Tampilan Tablet*/
+@media all and (max-width: 1000px) {
+	.top-left h1 {
+		font-size: 40px;
+	}
+	.top-left p {
+		font-size: 16px;
+	}
+	.top-right img {
+		width: 320px;
+	}
+	.button-daftar {
+		padding: 8px 18px;
+		font-size: 12px;
+	}
+}
+/* Tampilan Smartphone */
+@media all and (max-width: 670px) {
+	.top-left {
+		width: 100%;
+		text-align: center;
+	}
+	.top-right {
+		margin-top: 50px;
+		width: 100%;
+	}
+	.top-left h1 {
+		font-size: 36px;
+	}
+	.top-left p {
+		font-size: 11px;
+	}
+	.top-right img {
+		width: 200px;
+	}
+}
+/* NOVA END RESPONSIVE */
+
+/* AWAL RESPONSIVE SAYYID */
+@media (max-width: 1000px) {
+	.profile {
+		width: 40%;
+		margin: 10px 5%;
+	}
+	.profile p {
+		font-size: 12px;
+	}
+}
+@media (max-width: 670px) {
+	.profile {
+		width: 70%;
+		margin: 10px 15%;
+		font-size: 10px;
+	}
+}
+/* AKHIR RESPONSIVE SAYYID */
+
+/* RAFLY START RESPONSIVE */
+/* SMALL DEVICES */
+@media screen and (min-width: 600px) {
+	.rex-card {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+		align-items: center;
+	}
+	.rex-icon {
+		margin: 0;
+	}
+	.rex-sosmed {
+		grid-column: 2 / 2;
+		margin: 0;
+	}
+	.rex-logo {
+		grid-row: span 2;
+		padding: 0;
+	}
+	.rex-desc p {
+		margin: 0;
+	}
+	.rex-address {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.rex-input-cont {
+		display: grid;
+		grid-template-columns: 80% 20%;
+		align-items: center;
+		justify-items: center;
+		gap: 5px;
+	}
+	.rex-input-cont .rex-btn-input {
+		margin: 0;
+	}
+}
+
+/* MEDIUM DEVICES */
+@media screen and (min-width: 768px) {
+	.rex-footer {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px;
+	}
+	.rex-card {
+		display: block;
+		margin: 0;
+	}
+	.rex-card .rex-logo img {
+		margin: 8px auto;
+	}
+	.rex-logo {
+		margin-top: 5px;
+	}
+	.rex-desc {
+		margin-top: 10px;
+	}
+	.rex-sosmed {
+		margin-top: 18px;
+	}
+	.rex-about-us {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column: 2 / 4;
+		gap: 30px;
+		align-items: start;
+		align-content: center;
+	}
+	.rex-address {
+		display: flex;
+		grid-column: span 2;
+		gap: 30px;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+	.rex-address i,
+	.rex-address h4 {
+		font-size: 12px;
+	}
+	.rex-about-us h3 {
+		font-size: 16px;
+	}
+	.rex-team {
+		margin: 0;
+		padding: 0;
+	}
+	.rex-team a {
+		font-size: 13px;
+	}
+	.rex-team-list {
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		column-gap: 30px;
+	}
+	.rex-desc p,
+	.rex-subscribe p {
+		font-size: 12px;
+	}
+	.rex-subscribe {
+		margin: 0;
+	}
+	.rex-input-cont {
+		display: block;
+		text-align: end;
+	}
+	.rex-input-cont .rex-input {
+		padding: 8px;
+	}
+	.rex-input-cont .rex-btn-input {
+		margin-top: 10px;
+		padding: 8px 10px;
+	}
+	.rex-input-cont .rex-btn-input,
+	.rex-input-cont .rex-input {
+		font-size: 13px;
+	}
+	.rex-copyright {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		padding: 10px 30px;
+		align-items: center;
+	}
+	.rex-copy-menu {
+		margin: 0;
+	}
+}
+
+/* LARGE DEVICES */
+@media screen and (min-width: 992px) {
+	.rex-footer {
+		padding: 10px;
+	}
+	.rex-icon .bx {
+		padding: 5px;
+	}
+	.rex-card .rex-logo img {
+		margin: 8px auto;
+	}
+	.rex-address h4 {
+		font-size: 16px;
+	}
+	.rex-input-cont {
+		text-align: start;
+	}
+}
+
+/* EXTRA LARGE DEVICES */
+@media screen and (min-width: 1200px) {
+	.rex-footer {
+		padding: 10px 160px;
+	}
+	.rex-desc p {
+		font-size: 15px;
+	}
+	.rex-copyright {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px;
+	}
+	.rex-icon .bx {
+		padding: 7px;
+	}
+	.rex-about-us h3 {
+		font-size: 20px;
+	}
+	.rex-address i,
+	.rex-address h4 {
+		font-size: 19px;
+	}
+	.rex-address p {
+		font-size: 13px;
+	}
+	.rex-team a {
+		font-size: 15px;
+	}
+	.rex-subscribe p {
+		font-size: 15px;
+	}
+	.rex-input-cont {
+		text-align: start;
+	}
+	.rex-input-cont .rex-btn-input,
+	.rex-input-cont .rex-input {
+		font-size: 14px;
+	}
+	.rex-copy-menu a,
+	.rex-copy-team p {
+		font-size: 14px;
+	}
+}
+/* RAFLY END RESPONSIVE */
