@@ -58,21 +58,49 @@
 
 
 /* AWAL RESPONSIVE Rijalul */
-@media (max-width: 1000px) {
-	.card{	
-		width: 40%;
+@media (max-width: 1500px) {
+	.card{
+		width:40% ;
+		height: max-content;
+	}
+	.card p{
+		font-size: 15px;
+	}
+	.card img{
+		width: 22%;
+    	height: 25%;
 	}
 	.service .title h2{	
-		font-size: 43px;
+		font-size: 30px;
 	}
 }
-
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
 	.card{	
 		width: 50%;
 	}
 	.service .title h2{	
-		font-size: 36px;
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 670px) {
+	.card{	
+		width: 80%;
+		height: max-content;
+	
+	}
+	.card h5{
+		font-size: 20px;
+	}
+	.card img{
+		width: 16%;
+    	height: 22%;
+	}
+	.card p{
+		font-size:10px;
+	}
+	.service .title h2{	
+		font-size: 33px;
 	}
 }
 /* AWAL RESPONSIVE Rijalul END */
