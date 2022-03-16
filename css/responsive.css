@@ -33,6 +33,9 @@
 		padding: 8px 18px;
 		font-size: 12px;
 	}
+		.top-left a{
+		margin-bottom:15px;
+	}
 }
 /* Tampilan Smartphone */
 @media all and (max-width: 670px) {
