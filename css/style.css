@@ -10,6 +10,65 @@
 	font-family: "Poppins", sans-serif;
 }
 
+/* Awal Css Header Sahrul */
+.container {
+	padding: 0 30px;
+}
+
+header {
+	/* height: 65px; */
+	width: 100%;
+	background-color: rgba(3, 53, 119, 0.9);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+span.menu-icon {
+	display: none;
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+}
+
+.logo {
+	width: 130px;
+	margin-top: 20px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin-right: -25px;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	/* display: block; */
+	float: left;
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+
+	color: black;
+}
+
+
+.header-right a:active {
+	color: rgb(238, 255, 0);
+	text-decoration: underline;
+}
+
+/* Akhir Css Header Sahrul */
+
+
 /* Awal Css Top-Wrapper Nova */
 .container {
 	width: 100%;
