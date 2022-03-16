@@ -39,6 +39,7 @@
 	.top-left {
 		width: 100%;
 		text-align: center;
+		
 	}
 	.top-right {
 		margin-top: 50px;
@@ -52,6 +53,9 @@
 	}
 	.top-right img {
 		width: 200px;
+	}
+	.top-left a{
+		margin-bottom:10px;
 	}
 }
 /* NOVA END RESPONSIVE */
