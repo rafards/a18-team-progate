@@ -81,6 +81,82 @@
 }
 /* Akhir Css Top-Wrapper Nova */
 
+/* Awal CSS Rijalul */
+.service .title h2{
+    color: black;
+	font-size: 50px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.box{
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	height: max-content;
+	width: 20%;
+	padding: 20px 35px;
+	background: #fff;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    box-shadow:0px 0px 16px rgb(0, 0, 0,.1);
+}
+
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: rgb(19, 83, 109);
+}
+.card img{
+    width: 30%;
+    height: 25%;
+    align-items: center;
+    padding-top: 15px;
+}
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.pra p{
+	color:grey;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.card .button{
+	background-color:rgb(19, 83, 109);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+.card .button:hover{
+	background-color:rgb(70, 179, 223) ;
+	border: 2px solid rgb(19, 83, 109);
+	cursor: pointer;
+}
+
+
+/* Akhir CSS Rijalul */
+
+
 /* AWAL CSS SAYYID */
 .message-wrapper {
 	display: flex;
