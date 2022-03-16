@@ -37,6 +37,27 @@
 }
 /* NOVA END RESPONSIVE */
 
+
+/* AWAL RESPONSIVE Rijalul */
+@media (max-width: 1000px) {
+	.card{	
+		width: 40%;
+	}
+	.service .title h2{	
+		font-size: 43px;
+	}
+}
+
+@media (max-width: 640px) {
+	.card{	
+		width: 50%;
+	}
+	.service .title h2{	
+		font-size: 36px;
+	}
+}
+/* AWAL RESPONSIVE Rijalul END */
+
 /* AWAL RESPONSIVE SAYYID */
 @media (max-width: 1000px) {
 	.profile {
