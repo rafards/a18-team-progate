@@ -1,16 +1,18 @@
-# a18-team-progate#A18-Team-Progate
+#A18-Team-Progate
 
 Nama Kelompok : A18 TEAM PROGATE Kelas F FED
 
-Nama Anggota : 1. Sahrul Ramadhan Hakim (Making Header & Chief)
+Nama Anggota : 
 
-               2. Nurazizah Novalianty (Making Top-Wrapper)
+    1. Sahrul Ramadhan Hakim (Making Header & Chief)
 
-			         3. Rijalul Fikri Ulvi (Making Lesson Main)
+    2. Nurazizah Novalianty (Making Top-Wrapper)
 
-			         4. Sayyid Muhamad Alkhindi (Making Profile Team)
+    3. Rijalul Fikri Ulvi (Making Lesson Main)
 
-			         5. Rafly Ardiwansyah (Making Footer)
+    4. Sayyid Muhamad Alkhindi (Making Profile Team)
+
+    5. Rafly Ardiwansyah (Making Footer)
 
 Kami mengucapkan terimakasih banyak kepada Digitalent Kominfo dan tentunya Progate,
 
