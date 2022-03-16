@@ -220,17 +220,19 @@ h5 {
 }
 .profile {
 	padding: 5px 5px;
-	margin: 2% 5px;
+	margin: 2% 2px;
 	border-radius: 10px;
 	width: 19%;
 	float: left;
 	background-color: #f7f7f7;
 	transition: all 1s;
 	align-items: center;
+	box-shadow: 1px 4px #f7f7f7;
+	transform: scale(0.95);
 }
 .profile:hover {
-	border: 1px solid #474747;
-	box-shadow: 3px 7px #474747;
+	transform: scale(1);
+	box-shadow: 1px 4px #474747;
 	background-color: #f7f7f7;
 }
 .heading-1 h1 {
@@ -239,16 +241,20 @@ h5 {
 }
 .profile-icon {
 	padding-bottom: 2%;
+	font-size: 70%;
 }
 .profile-icon img {
 	margin-top: 5px;
 	height: 40px;
 	width: 40px;
 }
+.profile-icon h5 {
+	font-size: 12px;
+}
 .profile-icon span {
 	display: none;
 }
-.deskripsi {
+.deskripsi  {
 	text-align: left;
 	width: 100%;
 	font-size: 16px;
