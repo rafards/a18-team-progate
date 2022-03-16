@@ -1,6 +1,8 @@
 #A18-Team-Progate
 
-Nama Kelompok : A18 TEAM PROGATE Kelas F FED
+Nama Kelompok : 
+
+    A18 TEAM PROGATE Kelas F FED
 
 Nama Anggota : 
 
