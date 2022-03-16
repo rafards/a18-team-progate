@@ -82,6 +82,9 @@
 /* Akhir Css Top-Wrapper Nova */
 
 /* Awal CSS Rijalul */
+.service{
+	height: 700px;
+}
 .service .title h2{
     color: black;
 	font-size: 50px;
