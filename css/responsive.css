@@ -114,22 +114,24 @@
 
 /* AWAL RESPONSIVE SAYYID */
 @media (max-width: 1000px) {
+	.profile-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.profile {
 		width: 40%;
 		margin: 10px 5%;
 	}
-	.profile p {
-		font-size: 12px;
-	}
 }
 @media (max-width: 670px) {
+	.profile-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.profile {
 		width: 70%;
 		margin: 10px 15%;
 		font-size: 10px;
-	}
-	.profile-icon span {
-		display: contents;
 	}
 }
 /* AKHIR RESPONSIVE SAYYID */
