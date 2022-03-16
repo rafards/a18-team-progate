@@ -251,6 +251,9 @@ h5{
 	height: 40px;
 	width: 40px;
 }
+.profile-icon span {
+	display: none;
+}
 .deskripsi  {
 	text-align: left;
 	width: 100%;
